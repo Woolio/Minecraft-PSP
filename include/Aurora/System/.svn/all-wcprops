@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/13/trunk/include/Aurora/System
+END
+SystemManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12/trunk/include/Aurora/System/SystemManager.h
+END
+NetworkManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/13/trunk/include/Aurora/System/NetworkManager.h
+END

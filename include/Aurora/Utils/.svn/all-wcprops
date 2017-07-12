@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/5/trunk/include/Aurora/Utils
+END
+GameState.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/include/Aurora/Utils/GameState.h
+END
+StateManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/include/Aurora/Utils/StateManager.h
+END
+Logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/include/Aurora/Utils/Logger.h
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/include/Aurora/Utils/Timer.h
+END

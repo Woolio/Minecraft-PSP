@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/5/trunk/source/Aurora/Utils
+END
+Logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/source/Aurora/Utils/Logger.cpp
+END
+Timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/source/Aurora/Utils/Timer.cpp
+END
+StateManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/source/Aurora/Utils/StateManager.cpp
+END

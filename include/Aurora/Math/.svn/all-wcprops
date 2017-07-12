@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/35/trunk/include/Aurora/Math
+END
+Ray.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Ray.h
+END
+BoundingSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/35/trunk/include/Aurora/Math/BoundingSphere.h
+END
+BoundingBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/35/trunk/include/Aurora/Math/BoundingBox.h
+END
+Plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Plane.h
+END
+MathLib.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/MathLib.h
+END
+Vector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Vector2.h
+END
+Frustum.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Frustum.h
+END
+Vector3.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Vector3.h
+END
+Quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Quaternion.h
+END
+Vector4.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Vector4.h
+END
+Polygon.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Polygon.h
+END
+Matrix3.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Matrix3.h
+END
+Matrix4.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/35/trunk/include/Aurora/Math/Matrix4.h
+END

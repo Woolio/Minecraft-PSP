@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/35/trunk/source/Aurora/Math
+END
+BoundingBox.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9/trunk/source/Aurora/Math/BoundingBox.cpp
+END
+Plane.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/source/Aurora/Math/Plane.cpp
+END
+MathLib.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/35/trunk/source/Aurora/Math/MathLib.cpp
+END
+Quaternion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/35/trunk/source/Aurora/Math/Quaternion.cpp
+END
+Frustum.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/source/Aurora/Math/Frustum.cpp
+END
+Polygon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/35/trunk/source/Aurora/Math/Polygon.cpp
+END
+Matrix3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/35/trunk/source/Aurora/Math/Matrix3.cpp
+END
+Matrix4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/35/trunk/source/Aurora/Math/Matrix4.cpp
+END
+Ray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/source/Aurora/Math/Ray.cpp
+END
+BoundingSphere.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/source/Aurora/Math/BoundingSphere.cpp
+END

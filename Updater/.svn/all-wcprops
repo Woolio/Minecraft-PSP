@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/13/trunk/Updater
+END
+main_copy.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/13/trunk/Updater/main_copy.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/13/trunk/Updater/main.c
+END
+ICON0.png
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/13/trunk/Updater/ICON0.png
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/13/trunk/Updater/Makefile
+END

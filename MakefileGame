@@ -1,0 +1,102 @@
+TARGET = Tutorial1
+OBJS = source/Aurora/Math/MathLib.o \
+source/Aurora/Math/Matrix3.o \
+source/Aurora/Math/Matrix4.o \
+source/Aurora/Math/Quaternion.o \
+source/Aurora/Math/BoundingBox.o \
+source/Aurora/Math/BoundingSphere.o \
+source/Aurora/Math/Plane.o \
+source/Aurora/Math/Ray.o \
+source/Aurora/Math/Frustum.o \
+source/Aurora/Math/Polygon.o \
+source/Aurora/Graphics/common.o \
+source/Aurora/Graphics/vfram.o \
+source/Aurora/Graphics/vram.o \
+source/Aurora/Graphics/RenderManager.o \
+source/Aurora/Graphics/TextureManager.o \
+source/Aurora/Graphics/Camera.o \
+source/Aurora/Graphics/Sprite.o \
+source/Aurora/Graphics/Models/ObjModel.o \
+source/Aurora/Graphics/Models/ObjModel.o \
+source/Aurora/Graphics/intraFont/libccc.o \
+source/Aurora/Graphics/intraFont/intraFont.o \
+source/Aurora/Utils/Logger.o \
+source/Aurora/Utils/Timer.o \
+source/Aurora/Utils/StateManager.o \
+source/Aurora/Utils/pgeZip.o \
+source/Aurora/Utils/pge.o \
+source/Aurora/Utils/pgeDir.o \
+source/Aurora/System/SystemManager.o \
+source/Aurora/System/NetworkManager.o \
+LameCraft/BaseBlock.o \
+LameCraft/Blocks.o \
+LameCraft/BaseItem.o \
+LameCraft/Items.o \
+LameCraft/SimpleMeshChunk2.o \
+LameCraft/ChunkDataProvider.o \
+LameCraft/BlockEntity.o \
+LameCraft/NoteBlockEntity.o \
+LameCraft/JukeboxEntity.o \
+LameCraft/MonsterSpawnerEntity.o \
+LameCraft/ItemFrameEntity.o \
+LameCraft/Chest2.o \
+LameCraft/DirectionBlock.o \
+LameCraft/Furnace2.o \
+LameCraft/CraftWorld2.o \
+LameCraft/LameMob.o \
+LameCraft/Zombie2.o \
+LameCraft/Cow2.o \
+LameCraft/Creeper2.o \
+LameCraft/Sheep2.o \
+LameCraft/StateMenu.o \
+LameCraft/StateOptions.o \
+LameCraft/StatePlayCreative.o \
+LameCraft/StatePlay.o \
+LameCraft/LoadingScreen.o \
+LameCraft/SplashScreen.o \
+LameCraft/InputHelper.o \
+LameCraft/TextureHelper.o \
+LameCraft/sound_utils/pgeWav.o \
+LameCraft/SoundManager.o \
+source/Aurora/Graphics/Effects/Drop.o \
+source/Aurora/Graphics/Effects/TNT.o \
+source/Aurora/Graphics/Effects/InventoryPlayer.o \
+source/Aurora/Graphics/Effects/SnowBall2.o \
+source/Aurora/Graphics/Effects/SkyLight.o \
+source/Aurora/Graphics/Effects/SkyBox.o \
+source/Aurora/Graphics/Effects/Destroyer.o \
+source/Aurora/Graphics/Effects/StarsBox.o \
+source/Aurora/Graphics/Effects/Particle.o \
+source/Aurora/Graphics/Effects/WeatherSystem.o \
+LameCraft/mersenne-twister.o \
+LameCraft/SimplexNoise.o \
+LameCraft/WorldGenerator.o \
+LameCraft/sound_utils/vfsFile.o \
+LameCraft/sound_utils/VirtualFile.o \
+LameCraft/sound_utils/audio.o \
+LameCraft/sound_utils/bgm.o \
+LameCraft/sound_utils/media.o \
+LameCraft/sound_utils/mod.o \
+Lamecraft.o
+
+INCDIR = $(PSPPATH)/include
+INCDIR += ./include ./source ./3libs
+CFLAGS = -O3 -G0 -Wall -mpreferred-stack-boundary=4 #-enable-newlib-hw-fp -ffast-math
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+ASFLAGS = $(CFLAGS)
+
+BUILD_PRX = 1
+PSP_FW_VERSION=371
+PSP_LARGE_MEMORY = 1
+
+LIBDIR += ./3libs/noisepp ./3libs/libpspmath
+LDFLAGS =
+LIBS=  -lNoisepp -lpspaudiolib -lpspaudio -lmikmod -lmmio -lpspaudiocodec -lpng -lz -lpspgum -lpspgu -lstdc++ -lpsprtc -lpspctrl -lm -lpspvfpu -lpspsdk -lpsppower -lpsphttp -lpspmath #-lpsp_req -lcurl -lTiny
+
+EXTRA_TARGETS = EBOOT.PBP
+PSP_EBOOT_TITLE = MineCraft
+PSP_EBOOT_ICON = ICON0.png
+PSP_EBOOT_PIC1 = PIC1.png
+
+PSPSDK=$(shell psp-config --pspsdk-path)
+include $(PSPSDK)/lib/build.mak

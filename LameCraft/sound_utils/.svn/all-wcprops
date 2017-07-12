@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils
+END
+readwav.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/readwav.h
+END
+vfsFile.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/vfsFile.c
+END
+media.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/media.c
+END
+mod.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/mod.c
+END
+audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/audio.c
+END
+bgm.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/bgm.c
+END
+audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/audio.h
+END
+VirtualFile.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/VirtualFile.c
+END
+bgm.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/bgm.h
+END
+VirtualFile.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/VirtualFile.h
+END
+oslib.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/LameCraft/sound_utils/oslib.h
+END
